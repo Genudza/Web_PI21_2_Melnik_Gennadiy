@@ -1,0 +1,125 @@
+#big {
+
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    background: #00ffcc;
+}
+
+h2 {
+    font-family: Roboto;
+    color: #707070;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    font-style: italic;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,126,22,1) 0%, rgba(9,121,114,1) 0%, rgba(0,212,255,1) 92%);
+    border: 1px solid #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+
+#checkout-btn{
+    font-family: Roboto;
+    color: #707070;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: normal;
+    font-style: italic;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,126,22,1) 0%, rgba(9,121,114,1) 0%, rgba(0,212,255,1) 92%);
+    border: 1px solid #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#clear-cart-btn{
+    font-family: Roboto;
+    color: #707070;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: normal;
+    font-style: italic;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(23, 12, 224) 0%, rgb(170, 206, 23) 0%, rgb(6, 96, 87) 0%, rgb(38, 183, 154) 92%);
+    border: 1px solid #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.cart-item-name {
+    font-weight: bold;
+}
+
+.cart-item-price {
+    font-style: italic;
+}
+
+/* стили для формы оформления заказа */
+.order-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.order-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.order-form input[type="text"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.order-form button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-success {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid green;
+    background-color: #E9F8EE;
+    color: green;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 11pt;
+    background-color: #f8f8f8;
+}
+hr {
+    border: none;
+    background-color: black;
+    height: 5px;
+}
+ul {
+    font-family: Roboto;
+    font-size: 11pt;
+    list-style-type: upper-roman
+}
+

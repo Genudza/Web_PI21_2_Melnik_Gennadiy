@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<ul>
+    <li id="big"><a href="index.html">Главная</a></li>
+    <li id="big"><a href="contacts.html">Контакты</a></li>
+    <li id="big"><a href="computer.html">Страница товара</a></li>
+    <li id="big"><a href="bucket.html">Ваша корзина</a></li>
+</ul>
+<div id="cart">
+    <h2>Корзина</h2>
+    <ul id="cart-items"></ul>
+    <p>Итого: <span id="cart-total"></span> руб.</p>
+    <button id="clear-cart-btn">Очистить корзину</button>
+    <button id="checkout-btn">Оформить заказ</button>
+    <div id="checkout-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="checkout-form">
+                <label for="name">ФИО:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="address">Адрес доставки:</label>
+                <input type="text" id="address" name="address" required>
+                <label for="phone">Номер телефона:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <button id = "checkout-btn" type="submit">Потвердить заказ</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="script.js">
+
+
+</script>
+</body>
+</html>

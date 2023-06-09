@@ -1,0 +1,50 @@
+body {
+    background-color: #ffffff;
+    font-family: Times New Roman;
+    font-size: 14px;
+    background: url('image.jpg');
+    opacity: 0.9;
+    color: white;
+}
+
+.container {
+    font-family: Times New Roman;
+    font-size: 14px;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+}
+
+#riddle, #result {
+
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+#answer {
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+#submit {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    font-size: 17px;
+    background-color: #0056b3;
+    border-radius: 10px;
+}

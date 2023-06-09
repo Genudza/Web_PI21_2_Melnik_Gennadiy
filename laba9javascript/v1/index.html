@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Регистрация</h1>
+<form name="Sel3">
+    <table>
+        <tr>
+            <td><b>Идентификатор:</b></td>
+            <td><input name="Id" size=20 onBlur="this.value=this.value.toUpperCase()"></td>
+        </tr>
+        <tr>
+            <td><b>Пароль:</b></td>
+            <td><input type="password" name="Pwd" size=20 onFocus="this.select();"></td>
+        </tr>
+        <tr>
+            <td><b>Проверка пароля:</b></td>
+            <td><input type="password" name="Pwd1" size=20 onFocus="this.select();"></td>
+        </tr>
+    </table>
+    <input type="button" value="Готово" onClick="Complete1();">
+    <input type="reset" value="Сброс">
+</form>
+<script src="script.js"></script>
+</body>
+</html>

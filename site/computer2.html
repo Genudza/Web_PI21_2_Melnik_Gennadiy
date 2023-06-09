@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style2.css">
+	<title>Компьютеры</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<ul>
+	<li id = "big"><a href="index.html">Главная</a></li>
+	<li id = "big"><a href="contacts.html">Контакты</a></li>
+	<li id = "big"><a href="computer.html">Страница товара</a></li>
+	<li id="big"><a href="bucket.html">Ваша корзина</a></li>
+</ul>
+
+<div id="cart">
+	<h2>Корзина</h2>
+	<ul id="cart-items"></ul>
+	<p>Итого: <span id="cart-total"></span></p>
+	<button id="clear-cart-btn">Очистить корзину</button>
+	<button id="checkout-btn">Оформить заказ</button>
+	<div id="checkout-modal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<form id="checkout-form">
+				<label for="name">ФИО:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="address">Адрес доставки:</label>
+				<input type="text" id="address" name="address" required>
+				<label for="phone">Номер телефона:</label>
+				<input type="tel" id="phone" name="phone" required>
+				<button type="submit">Оформить заказ</button>
+			</form>
+		</div>
+	</div>
+
+</div>
+
+
+<h1>Каталог</h1>
+<body>
+<div class ="products">
+<div class="container">
+	<div class="block">
+		<h1>Компьютер игровой</h1>
+		<a href="computer.html"><img class="a-img-radius" src="computer.jpg" width="400" height="200" alt="Компьютер игровой"></a>
+		<h3>Описание товара</h3>
+		<p class="opisanie">Компьютер игровой, классный! Летает!</p>
+		<h3>Характеристики компьютера</h3>
+		<ol>
+			<li>Модель: Asus Rog Strix HN094-T</li>
+			<li>Процессор: Ryzen 7 5800u</li>
+			<li>Оперативная память: DDR4 32 GB 3600 cl17</li>
+			<li>Интегрированной видеокарты: Vega 7</li>
+			<li>Дискретная видеокарта: Asus Rog Strix 3060</li>
+		</ol>
+		<button onclick="addToCart('Компьютер игровой', 100000)">Добавить в корзину</button>
+	</div>
+
+	<div class="block">
+		<h1>Компьютер рабочий</h1>
+		<a href="computer.html"><img class="b-img-radius" src="work.jpg" width="400" height="200" alt="Компьютер рабочий от Dell"></a>
+		<h3>Описание товара</h3>
+		<p>Компьютер рабочий</p>
+		<h3>Характеристики компьютера</h3>
+		<ol>
+			<li>Модель: Dell Precision 5820-2684 Tower</li>
+			<li>Процессор: Intel Xeon W-2123</li>
+			<li>Оперативная память: DDR4 256 ГБ 3700 cl17</li>
+			<li>Интегрированной видеокарты: Vega 7</li>
+			<li>Дискретная видеокарта: Dell 3060</li>
+		</ol>
+		<button onclick="addToCart('Компьютер рабочий', 50000)">Добавить в корзину</button>
+	</div>
+</div>
+</div>
+
+
+<script src="script.js">
+
+
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="slider.js"></script>
+</body>
+
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="slider.js"></script>
+
+</body>
+
+</html>
+
+

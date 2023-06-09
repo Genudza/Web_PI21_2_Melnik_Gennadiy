@@ -1,0 +1,35 @@
+<div class ="products">
+<div class="container">
+	<div class="block">
+		<h1>Компьютер игровой</h1>
+		<a href="computer.html"><img class="a-img-radius" src="computer.jpg" width="400" height="200" alt="Компьютер игровой"></a>
+		<h3>Описание товара</h3>
+		<p class="opisanie">Компьютер игровой, классный! Летает!</p>
+		<h3>Характеристики компьютера</h3>
+		<ol>
+			<li>Модель: Asus Rog Strix HN094-T</li>
+			<li>Процессор: Ryzen 7 5800u</li>
+			<li>Оперативная память: DDR4 32 GB 3600 cl17</li>
+			<li>Интегрированной видеокарты: Vega 7</li>
+			<li>Дискретная видеокарта: Asus Rog Strix 3060</li>
+		</ol>
+		<button onclick="addToCart('Компьютер игровой', 100000)">Добавить в корзину</button>
+	</div>
+
+	<div class="block">
+		<h1>Компьютер рабочий</h1>
+		<a href="computer.html"><img class="b-img-radius" src="work.jpg" width="400" height="200" alt="Компьютер рабочий от Dell"></a>
+		<h3>Описание товара</h3>
+		<p>Компьютер рабочий</p>
+		<h3>Характеристики компьютера</h3>
+		<ol>
+			<li>Модель: Dell Precision 5820-2684 Tower</li>
+			<li>Процессор: Intel Xeon W-2123</li>
+			<li>Оперативная память: DDR4 256 ГБ 3700 cl17</li>
+			<li>Интегрированной видеокарты: Vega 7</li>
+			<li>Дискретная видеокарта: Dell 3060</li>
+		</ol>
+		<button onclick="addToCart('Компьютер рабочий', 50000)">Добавить в корзину</button>
+	</div>
+</div>
+</div>
